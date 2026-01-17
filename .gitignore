@@ -1,0 +1,9 @@
+# Maven
+/target/
+
+# IDE files
+/bin/
+.settings/
+.classpath
+.project
+.apt_generated*
