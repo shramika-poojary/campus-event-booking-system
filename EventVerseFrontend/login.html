@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventVerse - College Event Booking System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header id="navbar">
+       
+    </header>
+    <main class="mt-5 pt-5">
+        <section id="form-outer-container" class="d-flex justify-content-center">
+
+            <form class="card p-4 shadow-sm" style="height: 450px; width: 400px;" id="loginForm" method="post">
+                <h5 class="text-center mb-3">Login</h5>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                    <p id="emailMsg" style="color:red;"></p>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password">
+                    <p id="pwdMsg" style="color:red;"></p>
+                </div>
+
+                <div>
+                    <label>Role</label>
+                    <select id="role" class="form-control">
+                         <option value="">--Select Role--</option>
+                        <option value="ADMIN">ADMIN</option>
+                        <option value="USER">USER</option>
+                    </select>
+                    <p id="roleMsg" style="color:red;"></p>
+                </div>
+                <button type="submit" class="btn btn-primary mt-4">Login</button>
+                <div class="mt-4">
+                    <p>Don't have an account ?<a href="/register.html">Register</a></p>
+                </div>
+            </form>
+        </section>
+
+    </main>
+</body>
+<script src="javascript/navbar.js"></script>
+<script src="/javascript/config.js"></script>
+<!-- <script src="/javascript/login.js"></script> -->
+<script src="/javascript/auth.js"></script>
+
+</html>
