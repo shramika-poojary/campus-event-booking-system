@@ -87,5 +87,5 @@ It allows students to browse events by category, book events, make payments and 
 ## 👤 Author
 
 **Shramika Poojary**  
-- GitHub: [ShramikaPoojary](https://github.com/ShramikaPoojary)
+- GitHub: [ShramikaPoojary](https://github.com/shramika-poojary)
 
