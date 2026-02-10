@@ -16,7 +16,7 @@ It allows students to browse events by category, book events, make payments and 
 ## ✨ Features
 
 - Browse events by category  
-- Role-based authentication (Admin, Organizer, Attendee)  
+- Role-based authentication  
 - End-to-end event booking workflow  
 - Secure payment handling
 - QR code–based ticket generation 
